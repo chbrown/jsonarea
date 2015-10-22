@@ -1,0 +1,23 @@
+{
+  "name": "jsonarea",
+  "description": "JSON textarea for React",
+  "keywords": [
+    "json",
+    "textarea",
+    "react"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/chbrown/jsonarea",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chbrown/jsonarea.git"
+  },
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel": "*"
+  }
+}
