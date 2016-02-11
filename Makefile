@@ -1,9 +1,10 @@
 BIN := node_modules/.bin
+TYPESCRIPT := $(shell jq -r '.files[]' tsconfig.json | grep -Fv .d.ts)
 
-all: index.js
+all: index.js index.d.ts
 
-$(BIN)/babel:
+$(BIN)/tsc:
 	npm install
 
-index.js: index.jsx $(BIN)/babel
-	BABEL_ENV=production $(BIN)/babel --stage 0 $< >$@
+%.js %.d.ts: %.tsx $(BIN)/tsc
+	$(BIN)/tsc -d

@@ -18,6 +18,7 @@
     "react": "*"
   },
   "devDependencies": {
-    "babel": "*"
+    "declarations": "*",
+    "typescript": "*"
   }
 }
