@@ -15,10 +15,10 @@
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
   "dependencies": {
-    "react": "*"
+    "react": "0.14.7"
   },
   "devDependencies": {
-    "declarations": "*",
-    "typescript": "*"
+    "declarations": "0.1.7",
+    "typescript": "1.7.5"
   }
 }
